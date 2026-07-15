@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f4f6f9;
+    cursor: url('https://cdn.cursors-4u.net/previews/cute-hello-kitty-8bf4fb96-32.webp'), auto; 
+}
+
+header {
+    background: linear-gradient(90deg, #2e7d32, #66bb6a);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.container {
+    display: flex;
+    height: calc(100vh - 70px);
+}
+
+.sidebar {
+    width: 240px;
+    background: #1b5e20;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 6px rgba(0,0,0,0.2);
+}
+
+.sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #388e3c;
+    padding-bottom: 8px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+}
+
+.sidebar a:hover {
+    background: #388e3c;
+}
+
+.content {
+    flex: 1;
+    padding: 25px;
+    overflow-y: auto;
+}
+
+.card {
+    background: rgb(240, 243, 239);
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #2e7d32;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #f2f2f2;
+}
